@@ -6,13 +6,3 @@ format: html
 ![](Resume.pdf)
 
 ![](Cover_Letter.pdf)
-
-```{r}
-unlink(CV_Quarto, recursive = TRUE)
-
-
-file.exists(CV_Quarto)
-
-getwd()
-
-```
